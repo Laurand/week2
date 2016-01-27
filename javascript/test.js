@@ -50,20 +50,20 @@ console.log(favorite_quote); */
 
 //my quote... the parts in asteriks are the variables that will change...
 
-//*Each generation* goes further *than the generation preceding it because* it stands *on the shoulders of* that generation. *You will* have opportunities *beyond anything* we've ever known.
+//Each generation *goes further* than the generation preceding it because *it stands* on the shoulders of *that generation*. You will *have opportunities* beyond anything *we've ever known*.
 
 //lets create some variables to hold the parts that dont change...
-var static_words1 = "goes further";
-var static_words2 = "it stands";
-var static_words3 = "that generation";
-var static_words4 = "have opportunities";
-var static_words5 = "we've ever known";
+var static_words1 = "Each generation ";
+var static_words2 = " than the generation preceding it because ";
+var static_words3 = " on the shoulders of ";
+var static_words4 = " You will ";
+var static_words5 = " beyond anything ";
 
 //create a variable that is used as referrence to your form button
 //we use the unique ID attribute to do this
 var button = document.getElementById("submit");
 
-//then we we add the ability to have a mouse click fire off a function when clicked on
+//then we add the ability to have a mouse click fire off a function when clicked on
 button.addEventListener("click", onClick, false);
 
 function onClick(evt)
